@@ -1,41 +1,33 @@
+
 .overlay{
     display: grid;
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
 }
 .grid-item-first{
-    display: grid;
     grid-row: 9;
 }
 .grid-item-second{
-    display: grid;
     grid-row: 2;
 }
 .grid-item-third{
-    display: grid;
     grid-row: 3;
 }
 .grid-item-fourth{
-    display: grid;
     grid-row: 4;
 }
 .grid-item-five{
-    display: grid;
     grid-row: 5;
 }
 .grid-item-six{
-    display: grid;
     grid-row: 6;
 }
 .grid-item-seven{
-    display: grid;
     grid-row: 7;
 }
 .grid-item-eight{
-    display: grid;
     grid-row: 8;
 }
 .grid-item-nineth{
-    display: grid;
     grid-row: 1;
 }
 
