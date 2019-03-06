@@ -24,3 +24,17 @@ width: 100%;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
+
+.grid__item{
+grid-row: 1;
+}
+
+.grid__item--first{
+ grid-column: 1;
+ }
+ .grid__item--second{
+ grid-column: 2;
+ }
+ .grid__item--third{
+ grid-column: 3;
+ }
