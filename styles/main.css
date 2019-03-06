@@ -19,3 +19,8 @@ width: 100%;
     Bruges sådan her: <main class="main main--borders"></main>
     */
 }
+
+.grid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
