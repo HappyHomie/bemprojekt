@@ -10,7 +10,7 @@ header ul li a{
 /* -----Desktop----- */
 @media screen and (min-width: 769px) {
     nav{
-        background-color: #92B8B7;
+        background-color: #0798a8;
         color: #FEFEFE;
     }
     nav {
@@ -63,7 +63,7 @@ header ul li a{
         grid-column: 1 / span 2;
         grid-row: 1;
         max-width: 100%;
-        background: #92B8B7;
+        background: #0798a8;
         color: #FEFEFE;
         text-decoration: none;
     }
@@ -74,11 +74,11 @@ header ul li a{
         margin-left: 6vmin;
         align-self: center;
         font-size: 30px;
-        background-color: #92B8B7;
+        background-color: #0798a8;
     }
     label{
         grid-row: 1;
-        background-color: #92B8B7;
+        background-color: #0798a8;
         padding: 1vmin;
     }
 
@@ -87,7 +87,7 @@ header ul li a{
         grid-row: 1;
         float: right;
         padding: 1vmin 1vmin;
-        background-color: #92B8B7;
+        background-color: #0798a8;
     }
     #checkbox[type="checkbox"]{
         display: none;
