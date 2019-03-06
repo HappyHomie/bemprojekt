@@ -1,37 +1,50 @@
 
 .overlay{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.burgerheader{
+    grid-row: 1;
+    grid-column: 2;
 }
 .grid__item{
-    grid-row: 1;
+    justify-self: center;
 }
 .grid__item--first{
-    grid-row: 8;
+    grid-row: 2;
+    grid-column: 2;
 }
 .grid__item--second{
-    grid-row: 2;
+    grid-row: 3;
+    grid-column: 2;
 }
 .grid__item--third{
-    grid-row: 3;
+    grid-row: 4;
+    grid-column: 2;
 }
 .grid__item--fourth{
-    grid-row: 4;
+    grid-row: 5;
+    grid-column: 2;
 }
 .grid__item--five{
-    grid-row: 5;
+    grid-row: 6;
+    grid-column: 2;
 }
 .grid__item--six{
-    grid-row: 6;
+    grid-row: 7;
+    grid-column: 2;
 }
 .grid__item--seven{
-    grid-row: 7;
+    grid-row: 8;
+    grid-column: 2;
 }
 .grid__item--eight{
-    grid-row: 1;
+    grid-row: 9;
+    grid-column: 2;
 }
 .grid__item--nineth{
-    grid-row: 0;
+    grid-row: 10;
+    grid-column: 2;
 }
 
