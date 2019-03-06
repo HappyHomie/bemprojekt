@@ -3,31 +3,34 @@
     display: grid;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
 }
-.grid-item-first{
-    grid-row: 9;
+.grid__item{
+    grid-row: 1;
 }
-.grid-item-second{
-    grid-row: 2;
-}
-.grid-item-third{
-    grid-row: 3;
-}
-.grid-item-fourth{
-    grid-row: 4;
-}
-.grid-item-five{
-    grid-row: 5;
-}
-.grid-item-six{
-    grid-row: 6;
-}
-.grid-item-seven{
-    grid-row: 7;
-}
-.grid-item-eight{
+.grid__item--first{
     grid-row: 8;
 }
-.grid-item-nineth{
+.grid__item--second{
+    grid-row: 2;
+}
+.grid__item--third{
+    grid-row: 3;
+}
+.grid__item--fourth{
+    grid-row: 4;
+}
+.grid__item--five{
+    grid-row: 5;
+}
+.grid__item--six{
+    grid-row: 6;
+}
+.grid__item--seven{
+    grid-row: 7;
+}
+.grid__item--eight{
     grid-row: 1;
+}
+.grid__item--nineth{
+    grid-row: 0;
 }
 
