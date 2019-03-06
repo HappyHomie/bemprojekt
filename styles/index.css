@@ -1,7 +1,8 @@
 
 .overlay{
     display: grid;
-    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr;
 }
 .grid__item{
     grid-row: 1;
