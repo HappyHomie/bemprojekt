@@ -1,0 +1,21 @@
+.main {
+box-sizing: border-box;
+width: 100%;
+/*
+    Bruges sådan her: <main class="main"></main>
+    */
+}
+
+.main--xlarge{
+    font-size: 120%;
+    /*
+    Bruges sådan her: <main class="main main--xlarge"></main>
+    */
+}
+
+.main--borders{
+    border:1px solid #333;
+       /*
+    Bruges sådan her: <main class="main main--borders"></main>
+    */
+}
