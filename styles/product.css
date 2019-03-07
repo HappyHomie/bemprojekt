@@ -31,7 +31,7 @@
     width: 200px;
     height: 200px;
 }
-.productpage__product h2, .productpage__product p{
+h2, p{
     justify-self: center;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -54,4 +54,21 @@
     color: black;
     border: 2px solid #f44336;
 
+}
+.product__info{
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    border: 5px solid red;
+}
+.product__info-image{
+    width: 400px;
+    height: 400px;
+}
+.product__info-description{
+    border: 5px solid black;
+    padding: 20px;
+    line-height: 2;
 }
