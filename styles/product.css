@@ -26,7 +26,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
-.productpage__product img{
+.productpage__product-image{
     margin: auto;
     width: 200px;
     height: 200px;
@@ -36,7 +36,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.productpage__product__button{
+.productpage__product-button{
     border-radius: 12px;
     background-color: #f44336;
     color: white;
@@ -44,12 +44,12 @@
     text-decoration: none;
     display: flex;
 }
-.productpage__product__button p{
+.productpage__product-button p{
     justify-self: center;
     align-self: center;
     margin: auto;
 }
-.productpage__product__button:hover{
+.productpage__product-button:hover{
     background-color: white;
     color: black;
     border: 2px solid #f44336;
