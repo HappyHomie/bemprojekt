@@ -20,28 +20,28 @@ var header = `
 
 var footer = `
     <link rel="stylesheet" href="${path}/styles/footer.css">
-    <address>
+    <address class'footer__adress'>
         CPH Architects <br>
         Piet Hein's Gade 42 <br>
         DK-2820 Søborg <br>
         +45 12 34 56 78 <br>
         hello@cpharchitect.dk
     </address>
-    <p>
+    <p class='footer__p'>
         Ophavsret &#9400; 2018, alle rettigheder forbeholdes
     </p>
-    <figure id="fb">
+    <figure class='footer__link-fb'>
         <a href="www.facebook.com">
             <img src="${path}/img/fb-symbol.png" alt="Facebook">
         </a>
     </figure>
-    <figure id="twit">
+    <figure class='footer__link-twitter'>
         <a href="www.twitter.com">
             <img src="${path}/img/twitter-symbol.png" alt="Twitter">
         </a>
     </figure>
-    <figure id="insta">
-        <a href="www.twitter.com">
+    <figure class='footer__link-insta'>
+        <a href="www.instagram.com">
             <img src="${path}/img/instagram symbol.png" alt="insta">
         </a>    
     </figure>
