@@ -4,8 +4,12 @@
     border: 1px solid lightgrey;
     border-radius: 3px;
     width: 50%;
-    height: 27em;
+    height: 33em;
 
+  }
+
+  input.bill-address__input {
+    padding: 0.5rem;
   }
   label {
     margin-bottom: 10px;
