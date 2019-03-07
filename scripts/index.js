@@ -8,12 +8,12 @@ var path = isIndex ? '.' : '..'
 var header = `
     <link rel="stylesheet" href="${path}/styles/navigation.css">
     <nav class='title'>
-        <a href='${path}/index.html' class="title__logo"><h1>Davie's Burgers</h1></a>
+        <a class="title__logo" href='${path}/index.html'><h1>BEM Project</h1></a>
         <ul class="title__menu">
-            <li class='title__menu-page'><a href="${path}/pages/newsletter.html">contact-form</a></li>
-            <li class='title__menu-page'><a href="${path}/pages/product.html">Menu1</a></li>
-            <li class='title__menu-page'><a href="${path}/pages/sidebar.html">Menu2</a></li>
-            <li class='title__menu-page'><a href="${path}/pages/contact-form.html">Menu3</a></li>
+            <li class='title__menu-page'><a href="${path}/pages/newsletter.html">Newsletter</a></li>
+            <li class='title__menu-page'><a href="${path}/pages/product.html">Product</a></li>
+            <li class='title__menu-page'><a href="${path}/pages/sidebar.html">Sidebar</a></li>
+            <li class='title__menu-page'><a href="${path}/pages/contact-form.html">Contact</a></li>
         </ul>
     </nav>
 `
