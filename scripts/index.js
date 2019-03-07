@@ -21,11 +21,7 @@ var header = `
 var footer = `
     <link rel="stylesheet" href="${path}/styles/footer.css">
     <address class='footer__adress'>
-        CPH Architects <br>
-        Piet Hein's Gade 42 <br>
-        DK-2820 Søborg <br>
-        +45 12 34 56 78 <br>
-        hello@cpharchitect.dk
+        BEM Projekt <br>
     </address>
     <p class='footer__p'>
         Ophavsret &#9400; 2018, alle rettigheder forbeholdes
