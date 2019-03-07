@@ -9,43 +9,39 @@ header ul li a{
 
 /* -----Desktop----- */
 @media screen and (min-width: 769px) {
-    nav{
+    .title{
         background-color: #0798a8;
         color: #FEFEFE;
-    }
-    nav {
         display:grid;
         grid-template-columns: 1fr 1fr;
     }
-    nav h1 {
+    .title__logo {
         grid-area: 1 / 1;
         margin: 1rem;
         margin-left: 6rem;
     }
-    nav ul li {
+    .title__menu{
+        margin-right: 4rem; 
+        justify-items: start;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .title__menu-page {
         grid-row: 1;
         grid-column: 2;
         display: inline;
         margin: 1rem; 
     }
-    .menu{
-        margin-right: 4rem; 
-        justify-items: start;
-    }
-    ul {
-        display: flex;
-        justify-content: flex-end;
-    }
-    ul > li {
+    /* ul > li {
         font-size: large;
-    }
-    #checkbox {
+    } */
+    /* #checkbox {
         display: none;
-    }
-    .title {
+    } */
+    /* .title {
         color: #FEFEFE;
-        text-decoration: none;
-    }
+        text-decoration: none; 
+    }*/
 }
 
 /* -----Mobil----- */
