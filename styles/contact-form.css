@@ -12,10 +12,6 @@
     display: block;
   }
 
-  input:nth-child(6) {
-
-  }
-
   .bil-adress__input-name {
     width: 50%;
     margin-bottom: 20px;
