@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0;
 }
-.title{
+/* .title{
     width: 350px;
     padding: 30px;
     margin: auto;
     font-family: 'Courier New', Courier, monospace;
     font-size: 48px;
-}
+} */
 .productpage{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
