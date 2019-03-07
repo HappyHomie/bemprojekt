@@ -7,17 +7,13 @@ var path = isIndex ? '.' : '..'
 // template literals, strings with javascript '${...}'
 var header = `
     <link rel="stylesheet" href="${path}/styles/navigation.css">
-    <nav>
-        <a href='${path}/index.html' class="title"><h1>Davie's Burgers</h1></a>
-        <label for="checkbox">
-            <img class="navmobil" src="${path}/img/navmobil.png">
-        </label>
-        <input id="checkbox" type="checkbox">
-        <ul class="menu">
-            <li><a href="${path}/index.html">Home</a></li>
-            <li><a href="${path}/pages/side2.html">Menu1</a></li>
-            <li><a href="${path}/pages/side3.html">Menu2</a></li>
-            <li><a href="${path}/pages/side4.html">Menu3</a></li>
+    <nav class='title'>
+        <a href='${path}/index.html' class="title__logo"><h1>Davie's Burgers</h1></a>
+        <ul class="title__menu">
+            <li class='title__menu-page'><a href="${path}/pages/newsletter.html">contact-form</a></li>
+            <li class='title__menu-page'><a href="${path}/pages/product.html">Menu1</a></li>
+            <li class='title__menu-page'><a href="${path}/pages/sidebar.html">Menu2</a></li>
+            <li class='title__menu-page'><a href="${path}/pages/contact-form.html">Menu3</a></li>
         </ul>
     </nav>
 `
