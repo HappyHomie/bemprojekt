@@ -3,19 +3,27 @@
     padding: 5px 20px 15px 20px;
     border: 1px solid grey;
     border-radius: 3px;
-    width: 30%;;
+    width: 50%;
+    height: 30em;
+
   }
   label {
     margin-bottom: 10px;
     display: block;
   }
 
+  input:nth-child(6) {
+
+  }
+
   .bil-adress__input-name {
-    width: 50%;;
+    width: 50%;
     margin-bottom: 20px;
     padding: 12px;
-  }
-      
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
   }
 
   .bil-adress__input-btn {
@@ -30,9 +38,6 @@
     font-size: 14px;
   }
 
-  .bil-adress__input-name {
-    display: flex;
-    align-items: flex-start;
-    padding: 0;
-    margin: 0;
+  .bil-adress__input-btn:hover {
+    background-color: none;
   }
