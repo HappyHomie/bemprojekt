@@ -1,0 +1,36 @@
+.bil-adress {
+    background-color: grey;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 30%;;
+  }
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .bil-adress__input-name {
+    width: 50%;;
+    margin-bottom: 20px;
+    padding: 12px;
+  }
+
+  .bil-adress__input-btn {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 35%;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .bil-adress__input-name {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+  }
