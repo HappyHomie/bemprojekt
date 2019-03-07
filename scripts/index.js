@@ -8,7 +8,7 @@ var path = isIndex ? '.' : '..'
 var header = `
     <link rel="stylesheet" href="${path}/styles/navigation.css">
     <nav>
-        <a href='${path}/index.html' class="title"><h1>CPH Architects</h1></a>
+        <a href='${path}/index.html' class="title"><h1>Davie's Burgers</h1></a>
         <label for="checkbox">
             <img class="navmobil" src="${path}/img/navmobil.png">
         </label>

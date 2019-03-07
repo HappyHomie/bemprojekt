@@ -1,0 +1,50 @@
+
+.overlay{
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.burgerheader{
+    grid-row: 1;
+    grid-column: 2;
+}
+.grid__item{
+    justify-self: center;
+}
+.grid__item--first{
+    grid-row: 2;
+    grid-column: 2;
+}
+.grid__item--second{
+    grid-row: 3;
+    grid-column: 2;
+}
+.grid__item--third{
+    grid-row: 4;
+    grid-column: 2;
+}
+.grid__item--fourth{
+    grid-row: 5;
+    grid-column: 2;
+}
+.grid__item--five{
+    grid-row: 6;
+    grid-column: 2;
+}
+.grid__item--six{
+    grid-row: 7;
+    grid-column: 2;
+}
+.grid__item--seven{
+    grid-row: 8;
+    grid-column: 2;
+}
+.grid__item--eight{
+    grid-row: 9;
+    grid-column: 2;
+}
+.grid__item--nineth{
+    grid-row: 10;
+    grid-column: 2;
+}
+
